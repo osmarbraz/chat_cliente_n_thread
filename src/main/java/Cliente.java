@@ -14,7 +14,7 @@ public class Cliente extends Thread {
             con = socket;
             in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         } catch (IOException ioe) {
-            System.err.println("Problemas de IO");
+            System.out.println("Excecao: " + ioe.getMessage());
         }
     }
 
@@ -25,7 +25,7 @@ public class Cliente extends Thread {
                 System.out.println(mensagem); //Escreve mensagens do servidor
             }
         } catch (IOException ioe) {
-            System.err.println("Problemas de IO");
+            System.out.println("Excecao: " + ioe.getMessage());
         }
     }
 }

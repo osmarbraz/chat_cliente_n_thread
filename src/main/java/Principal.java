@@ -19,8 +19,8 @@ public class Principal {
                 mensagem = JOptionPane.showInputDialog("Digite a Mensagem ou fim para sair");
                 out.println(mensagem); //escreve a mensagem
             }
-        } catch (IOException io) {
-            System.err.println("Problemas de IO");
+        } catch (IOException ioe) {
+            System.out.println("Excecao: " + ioe.getMessage());
         }
     }
 }
