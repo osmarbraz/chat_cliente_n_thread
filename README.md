@@ -5,7 +5,7 @@
 - Programa cliente do chat usando java socket.
 - Permite conectar a um servidor.
 - Recebe mensagens do servidor em outra thread.
-- Use o repositório "socket_servidor_chat_n_thread" como o programa servidor.
+- Use o repositório "socket_chat_n_thread_servidor" como o programa servidor.
 
 ## Arquivos
 
